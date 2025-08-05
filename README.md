@@ -1,3 +1,80 @@
+db.productos.insertMany([
+  {
+    "nombre": "Proteína Whey Protein",
+    "categoria": "Proteína",
+    "marca": "Optimum Nutrition",
+    "sabor": "Vainilla",
+    "peso": "2kg",
+    "precio": 45.99,
+    "descripcion": "Proteína de suero de leche de alta calidad para el desarrollo muscular y la recuperación.",
+    "ingredientes": [
+      "Suero de leche",
+      "Aislado de proteína",
+      "Aminoácidos"
+    ]
+  },
+  {
+    "nombre": "Creatina Monohidrato",
+    "categoria": "Energía",
+    "marca": "MyProtein",
+    "sabor": "Sin sabor",
+    "peso": "500g",
+    "precio": 14.99,
+    "descripcion": "Aumenta la fuerza y potencia muscular en entrenamientos intensos.",
+    "ingredientes": [
+      "Creatina Monohidrato"
+    ]
+  },
+  {
+    "nombre": "BCAA's",
+    "categoria": "Aminoácidos",
+    "marca": "Bulk Natural",
+    "sabor": "Frambuesa",
+    "peso": "300g",
+    "precio": 24.99,
+    "descripcion": "Aminoácidos ramificados para mejorar la recuperación muscular y reducir la fatiga.",
+    "ingredientes": [
+      "Leucina",
+      "Isoleucina",
+      "Valina"
+    ]
+  },
+  {
+    "nombre": "L-Carnitina",
+    "categoria": "Quema grasa",
+    "marca": "Hercules",
+    "sabor": "Limón",
+    "peso": "500ml",
+    "precio": 19.99,
+    "descripcion": "Aumenta la oxidación de grasas y mejora el rendimiento físico.",
+    "ingredientes": [
+      "L-Carnitina",
+      "Ácido cítrico",
+      "Aromatizantes naturales"
+    ]
+  },
+  {
+    "nombre": "Multivitamínico",
+    "categoria": "Salud general",
+    "marca": "GNC",
+    "sabor": "Sin sabor",
+    "peso": "120 cápsulas",
+    "precio": 19.99,
+    "descripcion": "Suplemento multivitamínico para fortalecer el sistema inmunológico y mejorar el bienestar general.",
+    "ingredientes": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina D",
+      "Calcio",
+      "Magnesio"
+    ]
+  }
+]);
+
+
+
+
+
 CREATE DATABASE gestion_academica_universidad;
 
 USE gestion_academica_universidad;
